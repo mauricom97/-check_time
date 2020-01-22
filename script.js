@@ -8,15 +8,15 @@ msg.innerHTML = `Agora são ${hora} horas`
 
 if(hora < 12 && hora >= 4)
     {
-        img.src = './imagens/manha.png'
+        img.src = 'manha.png'
         msg.innerHTML = `Agora são ${hora} horas e ${minutos} minutos, bom dia!`
         document.body.style.background = '#456f32'
     }else if(hora >= 12 && hora < 18){
-        img.src = './imagens/tarde.png'
+        img.src = 'tarde.png'
         msg.innerHTML = `Agora são ${hora} horas e ${minutos} minutos, boa tarde!`
         document.body.style.background = '#7395b3'
     }else{
-        img.src = './imagens/noite.png'
+        img.src = 'noite.png'
         msg.innerHTML = `Agora são ${hora} horas e ${minutos} minutos, boa noite!`
         document.body.style.background = '#026bb1'
     }
